@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap; family=Honk&family=Protest+Guerrilla&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Protest+Guerrilla&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(./30745.jpg);
+    background-size: cover;
+    backdrop-filter: blur(5px);
+   
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: ubuntu;
+}
+.roxyAi{
+    width: 100vw;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+textarea{
+    width: 600px;
+    height: 300px;
+    background-color: rgba(121, 198, 198, 0.378);
+    color: rgb(255, 254, 254);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+textarea::placeholder{
+    color: white;
+}
+h2{
+    font-size: 65px;
+    font-family: Honk;
+}
+button{
+    padding: 12px 36px;
+    background-color: rgba(19, 2, 19, 0.427);
+    border: none;
+    outline: none;
+    color: white;
+    font-family: ubuntu;
+    font-size: 13px;
+    cursor: pointer;
+}
+.select{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+select{
+    flex: 1;
+    color: white;
+    background-color: rgba(10, 0, 0, 0.565);
+    height: 40px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    
+}
